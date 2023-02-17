@@ -1,6 +1,0 @@
----
-- name: Migrate database
-  django_manage:
-    command: "migrate"
-    app_path: "{{ backend_app_dir }}"
-    virtualenv: "{{ venv_dir }}"
