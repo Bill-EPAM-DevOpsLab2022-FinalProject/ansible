@@ -1,0 +1,8 @@
+app_name: test
+linux_user: test
+linux_user_group: www-data
+
+angular_server: True
+
+app_dir: "/home/{{ linux_user }}/{{ app_name }}"
+angular_app_dir: "{{ app_dir }}/frontend/angular-app"
